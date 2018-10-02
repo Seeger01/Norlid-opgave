@@ -1,0 +1,94 @@
+
+h3 {
+	padding-bottom: 3%;
+	font-size: 3em;
+}
+
+.input {
+	border: none;
+	border-bottom: thin solid;
+	width: 100%
+}
+
+.button {
+	background-color: #e6007e;
+	color: #ffffff;
+	padding: 5px 50px 5px 50px;
+}
+
+.h1 {
+	font-size: 2em;
+}
+
+.hero {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #2a697b;
+	width: 100%;
+	justify-content: space-around;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	margin-top: 3%;
+	padding-left: 120px;
+	padding-right: 120px;
+
+}
+
+.icon {
+	width: 350px;
+	height: auto; 
+}
+
+.icon img {
+
+	padding: 10px 0 20px 110px;
+
+}
+
+.icon p {
+	color: white;
+	text-align: center;
+	font-size: 2em;
+}
+
+
+/*footer*/
+.footer-left {
+	width: 30%;
+}
+
+.footer-icon {
+	display: inline-flex;
+	padding-top: 20px;
+}
+
+.footer-icon i {
+font-size: 48px;
+color:#ffffff;
+padding-right: 15px;
+}
+
+.footer-icon p {
+	color: #ffffff;
+	font-weight: lighter;
+} 
+
+.footer-right {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-end;
+padding-right: 30%;
+}
+
+.round {
+	margin-bottom: 2%;
+	border-radius: 5deg;
+}
+
+@media (max-width: 520px) {
+	body {
+		
+	}
+}
+
+
